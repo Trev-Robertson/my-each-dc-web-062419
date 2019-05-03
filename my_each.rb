@@ -1,5 +1,9 @@
-def my_each(collection)
-  # code here
+def my_each(array)
+  
+  while i < array.length
+  
+  yield 
+  
 end
 
 
