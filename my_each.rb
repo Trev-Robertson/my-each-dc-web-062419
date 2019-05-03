@@ -3,10 +3,13 @@ def my_each(array)
   
   while i < array.length
   
-  yield(array[i]) { |x| puts x}
+  yield(array[i]) 
   
   i += 1
   
 end
   
 end
+
+
+{ |x| puts x}
